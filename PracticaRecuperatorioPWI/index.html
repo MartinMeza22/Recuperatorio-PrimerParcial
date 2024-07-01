@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Operaciones</title>
+</head>
+<body>
+    <form action="./segundaPantalla.html">
+        <label for="cantidad-numeros">Ingrese cantidad de campos requeridos
+            <input id="campo-ingreso" type="number" placeholder="Ingrese la cantidad deseada">
+        </label>
+        <label for="opcionSeleccionada">Operacion Seleccionada: </label>
+        <select name="opecacion" id="operacion">
+            <option id="campo-suma" value="sumar">Sumar</option>
+            <option id="campo-resta" value="restar">Restar</option>
+            <option id="campo-multiplicacion" value="multiplicar">Multiplicar</option>
+        </select>
+        <button id="boton">Siguiente</button>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
